@@ -6,6 +6,19 @@
     padding: 0;
 }
 
+/* common utility */
+
+.navbar,
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner-childs {
+    width: 50%;
+    position: relative;
+}
+
 
 /* navbar styles starts here */
 
@@ -19,7 +32,7 @@
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1.25rem;
+    padding: 1.25rem 0;
     color: #fff; 
 }
 
@@ -45,3 +58,55 @@
 }
 
 /* navbar styles ends here */
+
+/* main content styles start here */
+
+
+/* banner section styles start here */
+
+.banner-main {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+    padding: .30rem;
+    background-color: rgb(242,242,242);
+    border-radius: .30rem;
+}
+
+.banner-img img {
+    width: 100%;
+    filter: brightness(60%);
+}
+
+.fifty-off {
+    background-color: #ffffff7a;
+    color: black;
+    width: max-content;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    border-radius: .30rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 700;
+    transform: translate(-50%, -50%);
+}
+
+.btn-banner {
+    border: 2px solid gray;
+    padding: .5rem 1rem;
+    background-color: transparent;
+    border-radius: .30rem;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* banner section styles end here */
+
+/* main content styles end here */
