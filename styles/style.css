@@ -1,0 +1,47 @@
+/* universal selectors */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navbar styles starts here */
+
+.navbar-wrapper {
+    background-color: rgb(71,85,105);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.25rem;
+    color: #fff; 
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul > li {
+    list-style: none;
+}
+
+.navbar ul > li > a {
+    text-decoration: none;
+    background-color: black;
+    padding: .6rem 1rem;
+    margin-left: 1rem;
+    border-radius: .30rem;
+    color: #fff;
+}
+
+.hamburger {
+    display: none;
+}
+
+/* navbar styles ends here */
